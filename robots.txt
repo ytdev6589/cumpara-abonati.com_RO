@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cumpara-abonati.com/sitemap.xml
