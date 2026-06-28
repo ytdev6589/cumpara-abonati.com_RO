@@ -10,7 +10,7 @@
     --white: #ffffff;
     --gray: #606060;
     --gray-light: #E5E5E5;
-    --shadow: 0 20px 60px rgba(255, 0, 0, 0.10);
+    --shadow: 0 12px 36px rgba(255, 0, 0, 0.07);
     --shadow-sm: 0 2px 12px rgba(15, 15, 15, 0.06);
     --shadow-accent: 0 8px 30px rgba(255, 0, 0, 0.28);
     --radius: 8px;
@@ -1074,7 +1074,7 @@ img {
 
     .nav {
         position: fixed;
-        top: 56px;
+        top: 77px;
         left: 0;
         right: 0;
         background: var(--white);
@@ -1097,6 +1097,10 @@ img {
         flex-direction: column;
         gap: 16px;
         text-align: center;
+    }
+
+    .nav-item.dropdown > .nav-link {
+        justify-content: center;
     }
 
     .nav-item.dropdown {
